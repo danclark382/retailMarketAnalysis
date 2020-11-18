@@ -3,6 +3,20 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Directories
+data/
+reference_material/
+models/s2v_reddit_2019_lg/
+ner-r01/
+meetings/
+
+# Keys
+keys.json
+
+# Cached
+.DS_Store
+.idea
+
 # C extensions
 *.so
 
@@ -18,7 +32,7 @@ lib/
 lib64/
 parts/
 sdist/
-var/
+var/7082ca2798464c362f3f5e1a5bc752baf6c6b5cf
 wheels/
 share/python-wheels/
 *.egg-info/
@@ -136,3 +150,7 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+git add models/run2
+git commit -m “Added spacy model”
+git push origin dev
