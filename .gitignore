@@ -9,6 +9,9 @@ reference_material/
 models/s2v_reddit_2019_lg/
 ner-r01/
 meetings/
+fastText/
+models/run2
+
 
 # Keys
 keys.json
@@ -32,7 +35,7 @@ lib/
 lib64/
 parts/
 sdist/
-var/7082ca2798464c362f3f5e1a5bc752baf6c6b5cf
+var/
 wheels/
 share/python-wheels/
 *.egg-info/
